@@ -1,0 +1,17 @@
+{
+  "name": "playwright-exd-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcin Berger",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-trace": "npx playwright test --trace on && npx playwright show-report",
+    "see-test": "npx playwright test --trace on --headed && npx playwright show-report",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.1",
+    "dotenv": "^16.0.3"
+  }
+}
